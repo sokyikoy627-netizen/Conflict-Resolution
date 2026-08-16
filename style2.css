@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    }
+
+body {
+    background-color: rgb(96, 197, 234);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    gap: 40px;
+        }
+
+.card {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 380px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 5);
+        }
+
+.form-container {
+    padding: 30px;
+    }
+
+.input-group {
+    margin-bottom: 20px;
+    display: flex;
+    position: relative;
+    }
+
+.input-icon {
+    background-color: #58a289;
+    color: white;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+.input-icon svg {
+    width: 20px;
+    border-radius: 5px;
+    fill: white;
+    }
+
+input[type="text"],
+input[type="email"],
+input[type="password"] 
+{
+    width: 100%;
+    border-radius: 5px;
+    padding: 12px 15px;
+    border: 1px solid rgb(215, 205, 205);
+    }
+
+.has-icon input {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-left: none;
+    }
+
+input::placeholder {
+    color: rgb(165, 159, 159);
+    }
+
+.btn-submit {
+    width: 100%;
+    background-color: #80bca8;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 4px;
+    }
+
+.btn-submit:hover {
+    background-color: #4a8a74;
+    }
+
+.footer-text {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 13px;
+    color: #d66161;
+    }
+
+.footer-text a {
+    color: #497668;
+    }
+
+.login-header {
+    background-color: #57bf8e;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 22px;
+    border-radius: 5px;
+
+    }
+
+.reg-header {
+    font-size: 22px;
+    color: #333333;
+    position: relative;
+    }
+.reg-header::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 30px;
+    height: 3px;
+    background-color: #58a289;
+    }
